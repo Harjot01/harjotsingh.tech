@@ -33,14 +33,14 @@ const About = async () => {
             </h1>
           </Reveal>
           <div className="flex flex-col gap-y-3">
-            {/* <Reveal delay={0.3}>
+            <Reveal delay={0.3}>
               <p>
-                Systems Engineer @{" "}
+                Ex-Intern @{" "}
                 <span className="text-primary hover:bg-primary hover:text-white cursor-pointer">
-                  IBM
+                  Cognizant Technology Solutions
                 </span>{" "}
               </p>
-            </Reveal> */}
+            </Reveal>
             <Reveal delay={0.4}>
               <p>
                 Ex-Frontend Developer @{" "}
