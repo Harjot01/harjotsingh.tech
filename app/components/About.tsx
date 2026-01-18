@@ -35,25 +35,25 @@ const About = async () => {
           <div className="flex flex-col gap-y-3">
             <Reveal delay={0.3}>
               <p>
+                Application Developer @{" "}
+                <span className="text-primary hover:bg-primary hover:text-white cursor-pointer">
+                  IBM
+                </span>{" "}
+              </p>
+            </Reveal>
+            <Reveal delay={0.4}>
+              <p>
                 Ex-Intern @{" "}
                 <span className="text-primary hover:bg-primary hover:text-white cursor-pointer">
                   Cognizant Technology Solutions
                 </span>{" "}
               </p>
             </Reveal>
-            <Reveal delay={0.4}>
+            <Reveal delay={0.5}>
               <p>
                 Ex-Frontend Developer @{" "}
                 <span className="text-primary hover:bg-primary hover:text-white cursor-pointer">
                   Pixis Media Solutions
-                </span>{" "}
-              </p>
-            </Reveal>
-            <Reveal delay={0.5}>
-              <p>
-                CSE Graduate @{" "}
-                <span className="text-primary hover:bg-primary hover:text-white cursor-pointer">
-                  Chandigarh University
                 </span>{" "}
               </p>
             </Reveal>
